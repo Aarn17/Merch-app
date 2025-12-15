@@ -424,3 +424,48 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
  
 }
 
+.calenderimg{
+  width: 100%;
+  max-width: 40em;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 1em;
+  
+}
+
+.planning{
+  padding: 8em;
+  background-color: #151E3F;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  
+  
+}
+
+.line1{
+  transform: translateY(-7em);
+  max-width: 6em;
+  margin: 0 auto;
+  border-top: 3px solid white;
+  border-radius: 1em;
+}
+
+.datum{
+  transform: translateY(-4em);
+  margin-left: -1.5em;
+  margin-bottom: -2em;
+}
+
+.line2{
+  width: 105%;
+  margin-top: 0.2em;
+}
+
+.afspraken{
+  margin-left: -1.5em;
+  padding-top: 2em;
+}
+
+.afspraken .p2{
+  margin-top: 2em;
+}
