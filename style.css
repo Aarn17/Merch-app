@@ -4,7 +4,6 @@
     font-family: Geologica;
     margin: 0;
     
-   
 }
 
 body{
@@ -285,4 +284,6 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: linear-gradient(90deg, rgba(250, 149, 137, 1) 0%, rgba(148, 88, 81, 1) 100%);
 }
 
-
+#maten2XL{
+  transform: translateX(-6.5em);
+}
