@@ -28,8 +28,8 @@ nav{
 }
 
 main{
-  background: #151E3F;
-  background: linear-gradient(180deg, rgba(21, 30, 63, 1) 0%, rgba(55, 79, 165, 1) 100%);
+    background: #151E3F;
+background: linear-gradient(180deg, rgba(21, 30, 63, 1) 0%, rgba(28, 49, 120, 1) 100%);
   color: white;
 
 }
@@ -55,9 +55,9 @@ main{
 
 .hero{
   position: absolute;
-  top: 5.9em;
+  top: 10.4em;
   left: 23em;
-  width: 17em;
+  width: 15em;
   
 }
 .section1home{
@@ -90,6 +90,7 @@ main{
   color: white;
   border-radius: 0.8em;
   transition: transform 0.2s ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .button:hover{
@@ -216,7 +217,9 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  transform: translateX(-9em);
+  font-size: 1.2em;
+  padding-top: 1em;
+  
 
 }
 
@@ -226,10 +229,60 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  transform: translateX(-10.8em);
+  transform: translateX(-5.6em);
+  padding-top: 2em;
+  font-size: 1.2em;
 }
 
-.maten a{
+.maten1{
   text-decoration: none;
+  padding: em;
+  color: white;
+  background-color: #FA9589;
+  padding: 0.5em;
+  border-radius: 0.6em;
+  text-align: center;
+  padding: 0.8em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+.maten2{
+ text-decoration: none;
+  color: white;
+  background-color: #FA9589;
+  padding: 0.5em;
+  border-radius: 0.6em;
+  padding: 0.8em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   
 }
+
+.maat-rij a:hover{
+  transform: scale(1.08);
+}
+
+.maattabel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  padding-bottom: 3em;
+  padding-top: 2em;
+  margin-bottom: 3em;
+}
+
+.maat-rij{
+  display: flex;
+  gap: 2em;
+  transition: transform 0.2s ease;
+  
+}
+
+.maat-rij a{
+   background: #FA9589;
+  background: linear-gradient(90deg, rgba(250, 149, 137, 1) 0%, rgba(148, 88, 81, 1) 100%);
+}
+
+
