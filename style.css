@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+*{
+    font-family: Geologica;
+    margin: 0;
+    
+   
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+nav{
+    background-color: #151E3F;
+    display: block;
+    position: relative;
+    padding: 3em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+main{
+  background: #151E3F;
+  background: linear-gradient(180deg, rgba(21, 30, 63, 1) 0%, rgba(55, 79, 165, 1) 100%);
+  color: white;
+
+}
+
+.div1back{
+  background: linear-gradient(
+  90deg,
+  rgba(250, 149, 137, 0.6) 0%,
+  rgba(148, 88, 81, 0.6) 100%
+);
+  
+  border-radius: 0.8em;
+  padding: 2em;
+  width: 100%;
+  max-width: 25em;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  transform: translateY(10em);
+  padding-bottom: 4em;
+  
+}
+
+.hero{
+  position: absolute;
+  top: 5.9em;
+  left: 23em;
+  width: 17em;
+  
+}
+.section1home{
+  padding-bottom: 10em;
+}
+
+.p2home{
+  width: 100%;
+  max-width: 20em;
+  text-align: center;
+  display: flex;
+ justify-content: center;
+ margin: 0 auto;
+ padding-bottom: 5em;
+ padding-top: 5em;
+ font-size: 1.2em;
+}
+
+.button{
+  text-decoration: none;
+  padding-top: 1.3em;
+  padding-right: 3em;
+  padding-bottom: 1.3em;
+  padding-left: 3em;
+  background: #FA9589;
+  background: linear-gradient(90deg, rgba(250, 149, 137, 1) 0%, rgba(148, 88, 81, 1) 100%);
+  display: block;
+   width: fit-content;
+  margin: 0 auto;
+  color: white;
+  border-radius: 0.8em;
+  transition: transform 0.2s ease;
+}
+
+.button:hover{
+  transform: scale(1.08);
+ 
+}
+
+footer{
+  background-color: #151E3F;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5em;
+  box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.25);
+  
+ 
+}
+
+footer a{
+  transition: transform 0.2s ease;
+  
+}
+
+footer a:hover{
+  transition: all 0.2s ease ease-in;
+  opacity: 60%;
+  transform: scale(1.08);
+}
+
+ 
+.divbtn{
+  padding-bottom: 5em;
+
+}
+
+.section1merch h1{
+  text-align: center;
+  padding-top: 1em;
+  
+}
+
+.section1merch hr{
+  width: 70%;
+  margin: 2em auto;
+  margin-bottom: -1em;
+ 
+}
+
+.back-btn{
+  padding-top: 4em;
+  padding-left: 2em;
+  transition: transform 0.2s ease;
+  height: 2em;
+}
+
+.back-btn:hover{
+  transform: scale(1.08);
+}
+
+.section1merch h2{
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  
+}
+
+
+
+
+
+.merchitems{
+  width: 100%;
+ 
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+ 
+  
+  height: 100%;
+  
+}
+
+.kader-merch{
+  padding: 5em;
+  background: #151E3F;
+  max-width: 15em;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 2em;
+  height: 210px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+
+}
+
+.section1merch .button{
+  margin-top: 2em;
+}
+
+.section1merch{
+  padding-bottom: 5em;
+}
+
+#sticker{
+  width: 150%;
+  height:10em;
+  padding-top: 1.5em;
+}
+
+.regenlaarzenp1{
+  padding-top: 3em;
+  width: 100%;
+  max-width: 20em;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  font-size: 1.2em;
+  padding-bottom: 2em;
+}
+
+.regenlaarzenp2{
+  text-align: left;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  transform: translateX(-9em);
+
+}
+
+.regenlaarzenp3{
+  text-align: left;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  transform: translateX(-10.8em);
+}
+
+.maten a{
+  text-decoration: none;
+  
+}
