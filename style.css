@@ -292,3 +292,100 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-left: 5em;
   margin-bottom: -1em;
 }
+
+
+.checkoutdiv1{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 18em;
+  padding-top: 2em;
+}
+
+.checkoutp1{
+  padding-left: 3.9em;
+  padding-bottom: 4em;
+}
+
+.checkoutimg1{
+  width: 100%;
+  max-width: 8em;
+  transform: translateX(-1em);
+}
+
+.checkoutdiv2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:  20px;
+  border-radius: 12px;
+  background: #FA9589;
+  background: linear-gradient(90deg, rgba(250, 149, 137, 1) 0%, rgba(148, 88, 81, 1) 100%);
+  width: 100%;
+  max-width: 35em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.product-info{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 1em;
+  
+}
+
+.product-text h4{
+  margin: 0;
+  font-size: 1.3em;
+  transform: translatex(-1.2em);
+}
+
+.product-info p{
+  margin: 4px;
+  opacity: 0.7;
+  transform: translatex(-1.7em);
+}
+
+.product-size{
+  flex: 0 0 80px;
+  text-align: center;
+  font-weight: 600;
+  transform: translateX(-4em);
+  font-size: 1.2em;
+}
+
+.size{
+  min-width: 60px;
+  text-align: center;
+}
+
+.quantity{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transform: translateX(-3em);
+  
+  
+  
+}
+
+.quantity button {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+}
+
+.quantity span {
+    min-width: 20px;
+    text-align: center;
+}
+
+.delete img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
