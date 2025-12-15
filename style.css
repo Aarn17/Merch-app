@@ -318,7 +318,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   justify-content: space-between;
   padding:  20px;
   border-radius: 12px;
-  background: #FA9589;
+  background: #fa9489;
   background: linear-gradient(90deg, rgba(250, 149, 137, 1) 0%, rgba(148, 88, 81, 1) 100%);
   width: 100%;
   max-width: 35em;
@@ -387,5 +387,40 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 18px;
     height: 18px;
     cursor: pointer;
+}
+
+.korting{
+  transform: translateX(3.4em);
+  padding-bottom: 5em;
+  display: flex;
+  font-size: 1.2em;
+  margin: 0 auto;
+  padding-top: 1em;
+
+  
+}
+
+.korting input{
+  background-color: transparent;
+  border: solid white 0.2em;
+  color: white;
+  caret-color: white;
+  outline: none;
+  border-radius: 0.4em;
+  margin-left: 0.8em;
+  
+ 
+}
+.korting a{
+  text-decoration: none;
+  color: #151E3F;
+  background-color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  border-radius: 0.4em;
+  margin-left: 8.5em;
+ 
 }
 
