@@ -287,3 +287,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 #maten2XL{
   transform: translateX(-6.5em);
 }
+
+#p3{
+  padding-left: 5em;
+  margin-bottom: -1em;
+}
