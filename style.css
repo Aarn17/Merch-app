@@ -10,6 +10,7 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0;
+    padding-bottom: 4em;
 }
 
 html {
@@ -34,11 +35,7 @@ background: linear-gradient(180deg, rgba(21, 30, 63, 1) 0%, rgba(28, 49, 120, 1)
 }
 
 .div1back{
-  background: linear-gradient(
-  90deg,
-  rgba(250, 149, 137, 0.6) 0%,
-  rgba(148, 88, 81, 0.6) 100%
-);
+  background: #151E3F;
   
   border-radius: 0.8em;
   padding: 2em;
@@ -81,8 +78,7 @@ background: linear-gradient(180deg, rgba(21, 30, 63, 1) 0%, rgba(28, 49, 120, 1)
   padding-right: 3em;
   padding-bottom: 1.3em;
   padding-left: 3em;
-  background: #FA9589;
-  background: linear-gradient(90deg, rgba(250, 149, 137, 1) 0%, rgba(148, 88, 81, 1) 100%);
+  background: #fa9489;
   display: block;
   width: fit-content;
   margin: 0 auto;
@@ -90,6 +86,7 @@ background: linear-gradient(180deg, rgba(21, 30, 63, 1) 0%, rgba(28, 49, 120, 1)
   color: white;
   transition: transform 0.2s ease;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  
 }
 
 
@@ -98,12 +95,19 @@ background: linear-gradient(180deg, rgba(21, 30, 63, 1) 0%, rgba(28, 49, 120, 1)
  
 }
 
+
 footer{
+  position: fixed;
+  bottom: 0;
+  left: -1em;
+  width: 100%;
   background-color: #151E3F;
   display: flex;
   justify-content: space-evenly;
   padding: 1.5em;
   box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.25);
+  
+
   
  
 }
@@ -122,6 +126,7 @@ footer a:hover{
  
 .divbtn{
   padding-bottom: 5em;
+  
 
 }
 
@@ -237,8 +242,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .maten1{
   text-decoration: none;
   padding: em;
-  color: white;
-  background-color: #FA9589;
+  color: #151E3F;
+  background-color: white;
   padding: 0.5em;
   border-radius: 0.6em;
   text-align: center;
@@ -249,8 +254,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 .maten2{
  text-decoration: none;
-  color: white;
-  background-color: #FA9589;
+  color: #151E3F;
+  background-color: white;
   padding: 0.5em;
   border-radius: 0.6em;
   padding: 0.8em;
@@ -281,8 +286,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .maat-rij a{
-   background: #FA9589;
-  background: linear-gradient(90deg, rgba(250, 149, 137, 1) 0%, rgba(148, 88, 81, 1) 100%);
+  background:white;
 }
 
 #maten2XL{
@@ -319,12 +323,12 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   justify-content: space-between;
   padding:  20px;
   border-radius: 12px;
-  background: #fa9489;
-  background: linear-gradient(90deg, rgba(250, 149, 137, 1) 0%, rgba(148, 88, 81, 1) 100%);
+  background: #151E3F;
   width: 100%;
   max-width: 35em;
   margin: 0 auto;
   margin-bottom: 2em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .product-info{
@@ -409,9 +413,9 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   outline: none;
   border-radius: 0.4em;
   margin-left: 0.8em;
-  
- 
+
 }
+
 .korting a{
   text-decoration: none;
   color: #151E3F;
@@ -421,8 +425,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
   border-radius: 0.4em;
-  margin-left: 8.5em;
- 
+  margin-left: 8.4em;
 }
 
 .calenderimg{
