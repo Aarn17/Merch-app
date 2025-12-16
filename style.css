@@ -114,6 +114,7 @@ footer{
   justify-content: space-evenly;
   padding: 1.5em;
   box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.25);
+  align-items: center;
 }
 
 footer a{
@@ -126,6 +127,8 @@ footer a:hover{
   opacity: 60%;
   transform: scale(1.08);
 }
+
+
 
  
 .divbtn{
@@ -370,10 +373,6 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   align-items: center;
   gap: 2px;
   transform: translateX(-1em);
-  
-  
-  
-  
 }
 
 .quantity button {
