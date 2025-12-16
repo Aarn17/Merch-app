@@ -396,12 +396,13 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .korting{
-  transform: translateX(1.3em);
   padding-bottom: 5em;
   display: flex;
+  justify-content: center;
   font-size: 0.8em;
   margin: 0 auto;
   padding-top: 1em;
+  
 }
 
 .korting input{
@@ -426,7 +427,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   border-radius: 0.4em;
-  margin-left: 2.8em;
+  margin-left: 1em;
 }
 
 .calenderimg{
