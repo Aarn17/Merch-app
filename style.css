@@ -14,7 +14,7 @@ body{
 
 html {
   scroll-behavior: smooth;
-  
+                      
 }
 
 nav{
@@ -469,3 +469,4 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .afspraken .p2{
   margin-top: 2em;
 }
+
