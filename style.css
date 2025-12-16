@@ -36,40 +36,47 @@ background: linear-gradient(180deg, rgba(21, 30, 63, 1) 0%, rgba(28, 49, 120, 1)
 
 .div1back{
   background: #151E3F;
-  
   border-radius: 0.8em;
   padding: 2em;
   width: 100%;
-  max-width: 25em;
+  max-width: 15.5em;
   text-align: left;
   display: block;
   margin: 0 auto;
   transform: translateY(10em);
   padding-bottom: 4em;
   
+  
 }
 
 .hero{
-  position: absolute;
-  top: 10.4em;
-  left: 23em;
-  width: 15em;
+ position: absolute;
+    top: 14.4em;
+    left: 8em;
+    width: 13em;
   
 }
 .section1home{
   padding-bottom: 10em;
 }
 
+.p1home{
+  font-size: 0.8em;
+  width: 100%;
+  max-width: 9em;
+  padding-top: 1em;
+}
+
 .p2home{
   width: 100%;
-  max-width: 20em;
+  max-width: 15em;
   text-align: center;
   display: flex;
  justify-content: center;
  margin: 0 auto;
  padding-bottom: 5em;
  padding-top: 5em;
- font-size: 1.2em;
+ font-size: 1em;
 }
 
 .button {
