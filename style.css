@@ -308,7 +308,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .checkoutp1{
-  padding-left: 1.5em;
+  transform: translatex(1.5em);
   padding-bottom: 4em;
   
 }
